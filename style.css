@@ -1,0 +1,12 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.yellowbg{
+	background-image: url("yellow background.jpeg");
+	background-size: 2000px;
+	margin-top: 50px;
+	background-position: no-repeat;
+	display:flex;justify-content: center;
+}
