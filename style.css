@@ -1,49 +1,68 @@
+*{
+    margin:0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400;
+}
 html{
-	justify-content: center:;
+	justify-content: center;
 
 }
-
-@keyframes anim1{
-	from{background-color:#2c1717;}
-	to{background-color: black;}
+.navbar{
+    box-shadow:0 1.5rem 2rem 0 rgb(0,0,0,0.4);
 }
+
+	
+
 body{
-	background-color:#2c1717;
+	background-color:#f1f1f1;
     opacity:1.5;
     animation-name:anim1;
     animation-duration:5s;
 
 }
-@keyframes anim2{
-	
-	
+.navbar-brand{
+	background-color: aqua;
+	padding: 5px;
+	border-radius:10px;
 }
-.intro{
-	text-align:center;
-	color:red;
-	position:relative;
-	max-width:cover auto;
-	
+.navbar-brand:hover{
+	background-color: red;
+	box-shadow: 0 20rem 2rem -1.4rem rgb(0,0,0,0.4);
 
 }
-.text1{
-	display:flex;
-	color:blue;
-}
-
-.ktimg{
-	vertical-align: center;
-	border:5px solid #ddd;
-	max-width:100%;
-	height:auto;
-	display:flex;
-	margin-left:auto;
-	margin-right:20px
-	border-radius: 100px;
-	padding:2px;
+.firstpage {
+    background-color: rgb(65, 50, 50);
+	margin: 30px;
+    text-align: center;
+    border-radius: 10px;
+    place-items:center;
+    color: rgb(0, 0, 0);
+    box-shadow: 1rem 1rem 1rem -0.7rem rgb(0,0,0,0.4);
+    margin-bottom:30px;
 
 }
-.ktimg:hover{
+.row{
+    border:none;
 
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.card{
+    border:none;
+    margin:10px;
+    border-radius:30px;
+    padding:10px;
+
+}
+.card-img-top{
+    border:none;
+    border-radius:30px;
+    
+}
+.btn{
+    border-radius:75x;
+}
+.btn-btn :hover{
+    background-color: rgb(235, 221, 221);
+    
 }
